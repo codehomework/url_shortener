@@ -1,0 +1,8 @@
+.vagrant/
+/.bundle
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/config/master.key
+.DS_Store

@@ -1,0 +1,140 @@
+/*
+Global styles
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.7em;
+  color: #7f8c8d;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: #34495e;
+}
+
+/*
+Header
+*/
+.menu {
+  background: #2D3E50;
+  padding: 0.5em;
+  text-align: left;
+}
+.menu .pure-menu-heading {
+  color: white;
+  font-weight: normal;
+  text-transform: initial;
+  font-size: 20px;
+}
+.menu .pure-menu-selected a {
+  color: white;
+
+}
+.menu ul {
+  float: right;
+}
+.menu .pure-menu-item a,
+.menu .pure-menu-item a:hover,
+.menu .pure-menu-item a:focus,
+.menu .pure-menu-item a:active,
+.menu .pure-menu-item a:link,
+.menu .pure-menu-item a:visited
+ {
+  color: #6FBEF3;
+}
+
+/*
+Shortener
+*/
+.shortener_container {
+  position: fixed !important;
+  width: 100%;
+  height: 88%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  background: #1f8dd6;
+}
+.shortener {
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+.shortener_heading {
+  font-size: 300%;
+  font-weight: bold;
+  font-weight: 100;
+  line-height: 1em;
+  color: white;
+  padding: 1em 1.6em;
+  border-radius: 5px;
+}
+.shortener_console {
+  color: white;
+  opacity: 0.8;
+  letter-spacing: 0.1em;
+}
+.shortener input, button#submit_button{
+  font-size: 200%;
+}
+
+/*
+Sales
+*/
+.sales-wrapper {
+  position: absolute;
+  top: 87%;
+  width: 100%;
+  min-height: 12%;
+  z-index: 2;
+  background: white;
+}
+.sales {
+  padding: 1em 1em 6em;
+}
+.sales_heading {
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.benefit_heading {
+  color: #1f8dd6;
+}
+.benefit {
+  padding: 1em;
+}
+
+/*
+Footer
+*/
+.footer {
+  background: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 32px;
+}
+
+/*
+Utilities
+*/
+.center {
+  text-align: center;
+}

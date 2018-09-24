@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Shortener</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="shortener.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading" href="">URL Shortener</a>
+      <ul class="pure-menu-list">
+        <li class="pure-menu-item pure-menu-selected"><a href="/" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="mailto:Brian.Donley@rht.com?subject=Please hire this guy!" class="pure-menu-link">Hire Me!</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="shortener_container">
+    <div class="shortener">
+      <h1 class="shortener_heading">I want to shorten...</h1>
+      <form class="pure-form">
+        <input class="pure-input-4-5" type="text" id="shortened_io" name="shortened_input_and_output" placeholder="enter long url here">
+        <button type="submit" id="submit_button" class="pure-input-1-5 pure-button">Shorten it!</button>
+      </form>
+      <p class="shortener_console">You will receive a shortened URL to share with your friends.</p>
+    </div>
+  </div>
+
+  <div class="sales-wrapper">
+    <div class="sales">
+      <h2 class="sales_heading center">"The best URL shortener" --Bill Gates</h2>
+      <div class="pure-g">
+        <div class="benefit pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="benefit_heading">Easily shorten URL's</h3>
+          <p>Bogged down by all of the URL shorteners out there? URL Shortener is the easiest URL shortener.</p>
+        </div>
+        <div class="benefit pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="benefit_heading">The shortest URL's</h3>
+          <p>We offer the shortest URL's on the entire web. Don't believe us? Here's <a href="https://www.google.com/search?q=gullible">proof</a>.</p>
+        </div>
+        <div class="benefit pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="benefit_heading">Made by cool people</h3>
+          <p>Most URL shorteners are made by nerds. Here at URL Shortener, we're cool, and that makes your URL's cool, too.</p>
+        </div>
+        <div class="benefit pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="benefit_heading">Guaranteed for Eternity</h3>
+          <p>This URL shortener is hosted on a solar-powered satellite. Your short URLs will work until the end of time.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer l-box center">
+      Made with ❤️ in San Francisco by <a href="https://github.com/codehomework">codehomework</a>
+    </div>
+  </div>
+</body>
+</html>
