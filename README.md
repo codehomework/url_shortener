@@ -1,5 +1,4 @@
-# url_shortener
-## A URL shortner in 4 hours
+# URLShortener: A URL shortner in 4 hours
 Hello, and thank you for reviewing my homework assignment for the engineering team. I appreciate the opportunity to audition with you guys.
 
 No URL's were harmed in the making of this code. 😇
